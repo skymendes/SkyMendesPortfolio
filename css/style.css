@@ -41,15 +41,17 @@ i{
     font-size: 30px;
     font-style: oblique;
 }
-/* .card{
+.card{
     border: none;
+    margin-bottom: 20px;
+    background-color: transparent;
 }
 .card img{
     width: 400px;
     height: 300px;
     object-fit: scale-down;
-    padding: 10px;
-} */
+    padding: 5px;
+    }
 
 .project{
     background: #E4B782;
@@ -68,13 +70,13 @@ p{
 }
 
 #image{
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
 
-#abstract{
+/* #abstract{
     background-image: url("img/abstract.jpg");
     background-size: cover;
     width: 200px;
     height: 200px;
-}
+} */
