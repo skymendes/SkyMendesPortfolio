@@ -1,0 +1,80 @@
+
+nav{
+    background-color: #86ABB7;
+    height: 60px;
+    opacity: .8;
+}
+
+.nav-menu{
+    color: #FCFCFC;
+}
+
+i{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 40px;
+    justify-content: center;
+    font-size: 35px;
+}
+
+/* .background{
+    background-image: url(https://images.unsplash.com/photo-1526643416807-fe42463ac1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1191&q=80);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.name{
+    text-align: center;
+    color: #E4B782;
+    padding: 70px;
+    font-size: 100px;
+    font-family: grafolita-script, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    color: #F4C9AA;
+    padding: 50px;
+    font-family: quasimoda, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+}
+/* .card{
+    border: none;
+}
+.card img{
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+    padding: 10px;
+} */
+
+.project{
+    background: #E4B782;
+}
+
+.about{
+    background: #F4C9AA;
+}
+
+p{
+    font-family: quasimoda, sans-serif;
+    text-align: right;
+    float: right;
+    padding: 15px;
+    margin-right: 40px;
+}
+
+#image{
+    width: 300px;
+    height: 400px;
+}
+
+#abstract{
+    background-image: url("img/abstract.jpg");
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+}
