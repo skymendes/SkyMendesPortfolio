@@ -46,7 +46,7 @@ i{
     margin-bottom: 20px;
     background-color: transparent;
 }
-.card img{
+.col img{
     width: 400px;
     height: 300px;
     object-fit: scale-down;
@@ -54,11 +54,17 @@ i{
     }
 
 .project{
-    background: #E4B782;
+    background: linear-gradient(
+        to top right, #8FADB6, #EEC9A5, #E5B985
+    );
+    border-style: solid;
+    border-
 }
 
 .about{
-    background: #F4C9AA;
+    background: linear-gradient(
+        to bottom left, #8FADB6, #EEC9A5, #E5B985
+    );
 }
 
 p{
@@ -69,9 +75,9 @@ p{
     margin-right: 40px;
 }
 
-#image{
-    width: 500px;
-    height: 500px;
+#work{
+    width: 50%;
+    background-color: #FCFCFC;
 }
 
 /* #abstract{
