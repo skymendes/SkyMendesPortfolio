@@ -2,7 +2,9 @@
 nav{
     background-color: #86ABB7;
     height: 60px;
+    width: 100%;
     opacity: .8;
+    position: absolute;
 }
 
 .nav-menu{
@@ -17,12 +19,6 @@ i{
     font-size: 35px;
 }
 
-/* .background{
-    background-image: url(https://images.unsplash.com/photo-1526643416807-fe42463ac1d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1191&q=80);
-    background-size: auto;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
 .name{
     text-align: center;
     color: #E4B782;
@@ -51,14 +47,18 @@ i{
     height: 300px;
     object-fit: scale-down;
     padding: 5px;
-    }
+}
 
 .project{
     background: linear-gradient(
         to top right, #8FADB6, #EEC9A5, #E5B985
     );
-    border-style: solid;
-    border-
+    
+}
+
+#work{
+    width: 55%;
+    background-color: #FCFCFC;
 }
 
 .about{
@@ -67,22 +67,24 @@ i{
     );
 }
 
+h1{
+    font-family: quasimoda, sans-serif;
+    padding: 50px;
+
+}
 p{
     font-family: quasimoda, sans-serif;
-    text-align: right;
-    float: right;
     padding: 15px;
-    margin-right: 40px;
+    margin-top: 25px;
+
+    float: right;
 }
 
-#work{
-    width: 50%;
-    background-color: #FCFCFC;
+#image{
+    width: auto;
+    height:300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    
+    
 }
-
-/* #abstract{
-    background-image: url("img/abstract.jpg");
-    background-size: cover;
-    width: 200px;
-    height: 200px;
-} */
