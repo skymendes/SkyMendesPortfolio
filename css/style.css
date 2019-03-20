@@ -72,11 +72,6 @@ i{
     margin-bottom: 50px;
 }
 
-#work{
-    width: 55%;
-    background-color: #FCFCFC;
-}
-
 .about{
     background: #FCFCFC;
     
@@ -130,4 +125,8 @@ p{
     border-color: #707070;
     color: #707070;
     font-family: quasimoda, sans-serif;
+}
+
+.footer{
+    height: 300px;
 }
