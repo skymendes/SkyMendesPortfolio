@@ -1,4 +1,8 @@
-
+body{
+    background: linear-gradient(
+        to bottom right, #8FADB6, #EEC9A5, #E5B985, #8FADB6
+    );
+}
 nav{
     background-color: rgb(211, 233, 240);
     height: 60px;
@@ -17,9 +21,9 @@ nav{
 #contact{
     color: #707070;
 }
-/* .background{
-
-} */
+.background{ 
+background: #FCFCFC;
+}
 
 i{
     display: flex;
@@ -61,9 +65,9 @@ i{
 }
 
 .project{
-    background: linear-gradient(
+    /* background: linear-gradient(
         to top right, #8FADB6, #EEC9A5, #E5B985
-    );
+    ); */
     margin-bottom: 50px;
 }
 
@@ -73,9 +77,8 @@ i{
 }
 
 .about{
-    background: linear-gradient(
-        to bottom left, #8FADB6, #EEC9A5, #E5B985
-    );
+    background: #FCFCFC;
+    
 }
 
 h1{
@@ -107,4 +110,9 @@ p{
     background-color: linear-gradient(
         to top right, #8FADB7, #EEC9A5, #E5B985
     );
+}
+
+.footer{
+    background: #707070;
+    z-index: 0;
 }
