@@ -2,6 +2,7 @@ body{
     background: linear-gradient(
         to bottom right, #8FADB6, #EEC9A5, #E5B985, #8FADB6
     );
+    background-repeat: no-repeat;
 }
 nav{
     background-color: rgb(211, 233, 240);
@@ -100,6 +101,10 @@ p{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
 
 /* .chart img{
     width: 300px;
@@ -111,8 +116,18 @@ p{
         to top right, #8FADB7, #EEC9A5, #E5B985
     );
 }
-
-.footer{
+.navbar{
     background: #707070;
-    z-index: 0;
+    position: relative;
+    
+
+}
+
+.btn{
+    border-radius: 30px;
+}
+#chat{
+    border-color: #707070;
+    color: #707070;
+    font-family: quasimoda, sans-serif;
 }

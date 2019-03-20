@@ -22,7 +22,7 @@
   <nav>
       <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
+            <a class="nav-link" href="#about">About</a>
           </li>
           <li class="nav-item">
               <a class="nav-link" href="#"></a>
@@ -50,21 +50,21 @@
       <H1 class="text-center skills-text">Projects</H1>
       <div class="container">
         <div class="row">
-          <div class="col col-6">
-            <img src="img/card.png" class="img-fluid" id="profile">
+          <div class="col col-md-6">
+            <img src="img/card.png" class="img-fluid " id="profile">
           </div>
-          <div class="col col-6">
+          <div class="col col-md-6">
             <img src="img/abstract.jpg" class="img-fluid" id="abstract">
           </div>
         <!-- </div>
         <div class="container"> -->
           <div class="row">
-            <div class="col col-6">
+            <div class="col col-md-6">
               <img src="img/doubleExposure.jpg" class="img-fluid" id="double">
 
             </div>
 
-            <div class="col col-6">
+            <div class="col col-md-6">
               <img src="img/aps.png" class="img-fluid" id="aps">
 
             </div>
@@ -78,7 +78,7 @@
 
       <!-- about me section -->
 
-      <div class="about">
+      <div class="about" id="about">
           <H1 class="text-center skills-text">My Story</H1>
         <div class="container-fluid">
           <div class="row">
@@ -107,7 +107,7 @@
   <H1>
     Sound like someone you'd like to work with? Get in touch!
   </H1>
-  <button type="button" class="btn btn-outline-primary">Chat with Me</button>
+  <button type="button" class="btn btn-outline-primary btn-lg justify-content-center" id="chat">Chat with Me</button>
   </div>
 </div>
 
@@ -115,17 +115,19 @@
 
 
 <footer>
-  <div class="footer">
+  <div class="navbar fixed-bottom">
     <div class="container-fluid">
       <div class="container">
         <div class="row">
           <div class="col-2">
-            <button>
-
+            <ul class="justify content-end">
+              <button type="button" class="btn btn-primary" id="me">
+              Chat with Me
             </button>
             <div class="col-6">
               <!-- Empty cell.. creating space on footer -->
             </div>
+            
             <div class="col-1">
               <a class="nav-link" href="#" id="linkedin" >
                 linkedin
