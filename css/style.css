@@ -12,15 +12,22 @@ nav{
     position: absolute;
 }
 
-.nav-link{
-    color: #E4B782;
+.nav-item{
+    color: #5D696D;
     font-family: quasimoda, sans-serif;
-    font-size: 25px;
+    font-size: 20px;
     margin-right: 25px;
+}
+#aboutbtn:hover{
+color: rgb(64, 75, 78);
 }
 
 #contact{
     color: #707070;
+}
+
+#contact:hover{
+    border-bottom: 3px dotted #5D696D;
 }
 .background{ 
 background: #FCFCFC;
@@ -91,7 +98,7 @@ p{
 }
 
 #image{
-    width: auto;
+    /* width: auto; */
     height:300px;
     margin-top: 25px;
     margin-bottom: 25px;
@@ -106,7 +113,7 @@ p{
     height: 200px;
 } */
 #action{
-    margin: 100px;
+    /* margin: 100px; */
     background-color: linear-gradient(
         to top right, #8FADB7, #EEC9A5, #E5B985
     );
@@ -121,12 +128,30 @@ p{
 .btn{
     border-radius: 30px;
 }
-#chat{
-    border-color: #707070;
-    color: #707070;
+.btn{
+    border: 2px solid #707070;
     font-family: quasimoda, sans-serif;
+    display: block;
+    color: #FCFCFC;
+}
+
+.btn:hover{
+    border: hidden;
+    background-color: #5D696D;
+    color: #FCFCFC;
+
 }
 
 .footer{
     height: 300px;
 }
+
+.nav-link{
+    color: #E4B782;
+    font-family: quasimoda, sans-serif;
+}
+
+#behance:hover, #github:hover, #linkedin:hover{
+    color: #FCFCFC;
+}
+

@@ -18,11 +18,15 @@ nav{
     font-family: quasimoda, sans-serif;
     font-size: 25px;
     margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-group{
     margin: 250x;
-    
+    color: #707070;
+    font-family: quasimoda, sans-serif;
 }
 
 .form-control{
@@ -38,9 +42,21 @@ nav{
     font-weight: bold;
 }
 
+.navbar{
+    height: 137px;
+    width: 100%;
+    background: #707070;
+}
 
-
-
+.btn{
+    margin: 25px;
+    color: #6b6b6b;
+    font-family: quasimoda, sans-serif;
+    font-size: 20px;
+    border:2px solid #8FADB6;
+    background-color: #8FADB6;
+    border-radius: 30px;
+}
 
 
 @media (max-width: 991.98px) {
