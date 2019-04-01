@@ -136,9 +136,9 @@ p{
 }
 
 .btn:hover{
-    border: hidden;
     background-color: #5D696D;
     color: #FCFCFC;
+    outline: none;
 
 }
 

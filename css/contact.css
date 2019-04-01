@@ -58,6 +58,10 @@ nav{
     border-radius: 30px;
 }
 
+#behance:hover, #github:hover, #linkedin:hover{
+    color: #FCFCFC;
+}
+
 
 @media (max-width: 991.98px) {
     .form-control{
