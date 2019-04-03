@@ -44,7 +44,8 @@ i{
 .name{
     text-align: center;
     color: #E4B782;
-    padding: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
     font-size: 100px;
     font-family: grafolita-script, sans-serif;
     font-style: italic;
@@ -125,17 +126,18 @@ p{
 
 }
 
-.btn{
-    border-radius: 30px;
-}
-.btn{
+#chat{
     border: 2px solid #707070;
     font-family: quasimoda, sans-serif;
+    font-size: 25px;
     display: block;
-    color: #FCFCFC;
+    color: #FCFCFC; 
+    border-radius: 30px;
+    /* height: auto;
+    width: 200px; */
 }
 
-.btn:hover{
+#chat:hover{
     background-color: #5D696D;
     color: #FCFCFC;
     outline: none;
