@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(
+        to bottom right, #8FADB6, #EEC9A5, #E5B985, #8FADB6
+    );
+    background-repeat: no-repeat;
+    height: 100%;
+}
+nav{
+    background-color: rgb(211, 233, 240);
+    height: 60px;
+    width: 100%;
+    opacity: .8;
+    position: absolute;
+}
+
+.nav-link{
+    color: #E4B782;
+    font-family: quasimoda, sans-serif;
+    font-size: 25px;
+    margin-right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-group{
+    margin: 250x;
+    color: #707070;
+    font-family: quasimoda, sans-serif;
+}
+
+.form-control{
+    width: 50%;
+    justify-content: center;
+}
+.name{
+    text-align: center;
+    color: #707070;
+    padding: 70px;
+    font-size: 80px;
+    font-family: quasimoda, sans-serif;
+    font-weight: bold;
+}
+
+.navbar{
+    height: 137px;
+    width: 100%;
+    background: #707070;
+}
+
+.btn{
+    margin: 25px;
+    color: #6b6b6b;
+    font-family: quasimoda, sans-serif;
+    font-size: 20px;
+    border:2px solid #8FADB6;
+    background-color: #8FADB6;
+    border-radius: 30px;
+}
+
+#behance:hover, #github:hover, #linkedin:hover{
+    color: #FCFCFC;
+}
+
+
+@media (max-width: 991.98px) {
+    .form-control{
+        width: 50%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .form-control{
+        width: 75%;
+    }
+}

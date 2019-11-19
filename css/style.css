@@ -1,0 +1,160 @@
+body{
+    background: linear-gradient(
+        to bottom right, #8FADB6, #EEC9A5, #E5B985, #8FADB6
+    );
+    background-repeat: no-repeat;
+}
+nav{
+    background-color:#FCFCFC;
+    height: 60px;
+    width: 100%;
+    opacity: .8;
+    position: absolute;
+}
+
+.nav-item{
+    color: #5D696D;
+    font-family: quasimoda, sans-serif;
+    font-size: 20px;
+    margin-right: 25px;
+}
+#aboutbtn:hover{
+color: rgb(64, 75, 78);
+}
+
+#contact{
+    color: #707070;
+}
+
+#contact:hover{
+    border-bottom: 3px dotted #5D696D;
+}
+.background{ 
+background: #FCFCFC;
+}
+
+i{
+    display: flex;
+    padding-top: 10px;
+    padding-right: 40px;
+    justify-content: center;
+    font-size: 35px;
+}
+
+.name{
+    text-align: center;
+    color: #E4B782;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    font-size: 100px;
+    font-family: grafolita-script, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.title{
+    text-align: center;
+    color: #F4C9AA;
+    padding: 50px;
+    font-family: quasimoda, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    margin-bottom: 50px;
+}
+/* .card{
+    border: none;
+    margin-bottom: 20px;
+    background-color: transparent;
+} */
+.col img{
+    width: 400px;
+    height: 300px;
+    object-fit: scale-down;
+    padding: 5px;
+}
+
+.project{
+    /* background: linear-gradient(
+        to top right, #8FADB6, #EEC9A5, #E5B985
+    ); */
+    margin-bottom: 50px;
+}
+
+.about{
+    background: #FCFCFC;
+    
+}
+
+h1{
+    font-family: quasimoda, sans-serif;
+    padding: 50px;
+    text-align: center;
+
+}
+p{
+    font-family: quasimoda, sans-serif;
+    padding: 15px;
+    margin-top: 25px;
+
+    float: right;
+}
+
+#image{
+    /* width: auto; */
+    height:300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+/* .chart img{
+    width: 300px;
+    height: 200px;
+} */
+#action{
+    /* margin: 100px; */
+    background-color: linear-gradient(
+        to top right, #8FADB7, #EEC9A5, #E5B985
+    );
+}
+.navbar{
+    background: #707070;
+    position: relative;
+    
+
+}
+
+#chat{
+    border: 2px solid #707070;
+    font-family: quasimoda, sans-serif;
+    font-size: 25px;
+    display: block;
+    color: #FCFCFC; 
+    border-radius: 30px;
+    /* height: auto;
+    width: 200px; */
+}
+
+#chat:hover{
+    background-color: #5D696D;
+    color: #FCFCFC;
+    outline: none;
+
+}
+
+.footer{
+    height: 300px;
+}
+
+.nav-link{
+    color: #E4B782;
+    font-family: quasimoda, sans-serif;
+}
+
+#behance:hover, #github:hover, #linkedin:hover{
+    color: #FCFCFC;
+}
+
