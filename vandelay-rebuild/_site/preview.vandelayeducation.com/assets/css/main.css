@@ -1,0 +1,99 @@
+/* Our Values */
+
+.top-row-our-values {
+  /* margin-top: 120px; */
+}
+@media screen and (max-width: 990px) {
+  .top-row-our-values {
+    margin-top: 0px;
+  }
+}
+
+.card-our-values {
+  background-color: #23356e;
+}
+
+.hunger {
+  top: -150px;
+}
+@media screen and (max-width: 990px) {
+  .hunger {
+    top: 0px;
+  }
+}
+
+.our-values-image-one {
+  height: 140px;
+  top: -5px;
+}
+
+@media screen and (max-width: 990px) {
+  .our-values-image-one {
+    height: 300px;
+    top: 0px;
+  }
+}
+
+.ownership {
+  top: -220px;
+}
+@media screen and (max-width: 990px) {
+  .ownership {
+    top: 0px;
+  }
+}
+
+.our-values-image-two {
+  height: 140px;
+  top: -220px;
+}
+
+@media screen and (max-width: 990px) {
+  .our-values-image-two {
+    height: 300px;
+    top: 0px;
+  }
+}
+
+/* Hero Overlay */
+
+.hero-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.418);
+  width: 25%;
+  height: 100%;
+  z-index: 1;
+}
+@media screen and (max-width: 990px) {
+  .hero-overlay {
+    display: none;
+  }
+}
+
+.hero-indicators-bar ol {
+  display: none;
+  margin-bottom: 140%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 80%;
+}
+
+@media screen and (min-width: 990px) {
+  .hero-indicators-mobile {
+    display: none;
+  }
+}
+
+.hero-bar-carousel-indicator {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+
+@media screen and (min-width: 990px) {
+  .hide-carousel-controls {
+    display: none;
+  }
+}
